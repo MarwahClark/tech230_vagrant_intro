@@ -3,6 +3,7 @@
 
 *step 1* - to make a vagrant file run the code into gitbash     
     `vagarant init`
+
 *step 2* - fill in the vagrant file with the code
  
   `Vagrant.configure("2") do |config|`
