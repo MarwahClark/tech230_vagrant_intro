@@ -145,7 +145,9 @@ you can access the nginx web server by typing the ip address into the web browse
 *step 23* to check the app on browser type in the ip address, with `:3000` at the end
   `192.168.10.100:3000`
 
-  another method to deploy the app which is alot quicker is by typing all the code in order in the provision file. once tying `vagrant up` if done correctly the app should run.
+ - another method to deploy the app which is alot quicker is by typing all the app depndency codes in order in the same provision file.
+  
+   -once tying `vagrant up` if done correctly the app should run.
 
    `#!/bin/bash`
    `sudo apt-get update -y`
@@ -159,10 +161,17 @@ you can access the nginx web server by typing the ip address into the web browse
    `cd /home/vagrant/app/app`
    `npm install`
    `npm start`
+
+
+![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/marwa/OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20101813.png?version%3D1683884414843)
+
+
+
+
  
-![Alt text](../../OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20101813.png)
+ 
 
 
-![Alt text](../../OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20101813.png)
+  ![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/marwa/OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20104151.png?version%3D1683884585503)
 
   
