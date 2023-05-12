@@ -145,7 +145,24 @@ you can access the nginx web server by typing the ip address into the web browse
 *step 23* to check the app on browser type in the ip address, with `:3000` at the end
   `192.168.10.100:3000`
 
+  another method to deploy the app which is alot quicker is by typing all the code in order in the provision file. once tying `vagrant up` if done correctly the app should run.
+
+   `#!/bin/bash`
+   `sudo apt-get update -y`
+   `sudo apt-get upgrade -y`
+   `sudo apt-get install nginx -y`
+   `sudo systemctl start nginx`
+   `sudo apt-get install python-software-properties`
+   `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+   `sudo apt-get install nodejs -y`
+   `npm install pm2 -g`
+   `cd /home/vagrant/app/app`
+   `npm install`
+   `npm start`
+ 
+![Alt text](../../OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20101813.png)
 
 
+![Alt text](../../OneDrive/Pictures/Screenshots/Screenshot%202023-05-12%20101813.png)
 
-rruby tests packages
+  
